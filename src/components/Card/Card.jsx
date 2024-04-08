@@ -16,7 +16,7 @@ const Card = () => {
       <div className="card__title">Joaquin Galarza</div>
       <div className="card__subtitle">Programador Front-end</div>
       <div className="card__wrapper">
-        <button className="card__btn">Contactame</button>
+        <button className="card__btn">Descargar cv</button>
       </div>
       <div className="card__redes">
       <BsLinkedin className='red-icon' />

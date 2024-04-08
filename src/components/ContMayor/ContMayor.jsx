@@ -1,6 +1,6 @@
 import React from 'react';
-import Container from '../Container/Container';
 import Card from '../Card/Card'
+import Container from '../Container/Container'
 import '../ContMayor/contMayor.css'
 
 const ContMayor = () => {
