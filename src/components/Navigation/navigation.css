@@ -3,17 +3,25 @@
     height: 4rem;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+   
+    --bs-nav-link-hover-color: #fff;
+    --bs-nav-link-hover-color: var(--bs-nav-link-hover-color:);
 }
 
 .nav-item {
     display: flex;
-    gap: 1rem;
-    padding: 0 2rem;
     list-style: none;
 }
 
-.nav-link {
+.nav .nav-link {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
+
+.nav .nav-link:hover {
+    color: #fff;
+}
+
