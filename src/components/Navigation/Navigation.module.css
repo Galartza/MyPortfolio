@@ -7,7 +7,7 @@
     transform: translateX(-50%);
     display: flex;
     background-color: var(--green-dark);
-    width: 450px;
+    width: 350px;
     height: 60px;
     align-items: center;
     justify-content: space-around;
@@ -18,7 +18,7 @@
 
 /* Estilos de los enlaces */
 .navLink {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     border-radius: 50%;
     display: flex;
