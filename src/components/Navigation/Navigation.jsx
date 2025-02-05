@@ -1,25 +1,24 @@
-import { Link } from 'react-router-dom';
-import Nav from 'react-bootstrap/Nav';
-import '../Navigation/navigation.css'
+import { Link } from "react-router-dom";
+import { FaHome , FaUser, FaFolderOpen, FaPhone  } from "react-icons/fa";
+import styles from "./Navigation.module.css";
 
 function Navigation() {
   return (
-    <Nav className='nav' variant="underline" defaultActiveKey="/home">
-      <Nav.Item>
-        <Link to="/home" className="nav-link">Home</Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Link to="/about" className="nav-link">About me</Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Link to="/portfolio" className="nav-link">Portfolio</Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Link to="/contact" className="nav-link">Contact</Link>
-      </Nav.Item>
-    </Nav>
+    <nav className={styles.nav}>
+      <Link to="/home" className={styles.navLink}>
+        <FaHome  />
+      </Link>
+      <Link to="/about" className={styles.navLink}>
+        <FaUser />
+      </Link>
+      <Link to="/portfolio" className={styles.navLink}>
+        <FaFolderOpen />
+      </Link>
+      <Link to="/contact" className={styles.navLink}>
+        <FaPhone  />
+      </Link>
+    </nav>
   );
 }
 
 export default Navigation;
-
