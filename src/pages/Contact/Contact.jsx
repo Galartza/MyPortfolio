@@ -4,7 +4,6 @@ export const Contact = () => {
   return (
     <div className='about-container'>
       <h1>Contact</h1>
-
       <div className='container-about'>
  
       </div>
