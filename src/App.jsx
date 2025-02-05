@@ -4,7 +4,7 @@ import Navigation from './components/Navigation/Navigation';
 import { Routes, Route, Navigate } from 'react-router-dom'; // No es necesario BrowserRouter aquí
 import { About } from './pages/about/About';
 import { Portfolio } from './pages/portfolio/Portfolio';
-import { Contact } from './pages/Contact/Contact'; // Si la carpeta se llama "Contact"
+import { Contact } from './pages/contact/Contact'; // Usando 'contact' en minúsculas
 import { Home } from './pages/home/Home';
 
 function App() {
