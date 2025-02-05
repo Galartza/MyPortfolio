@@ -1,7 +1,6 @@
 import React from 'react'
-import '../Home/home.css'
 
-export const Home = () => {
+export const Contact = () => {
   return (
     <div className='about-container'>
       <h1>Home</h1>

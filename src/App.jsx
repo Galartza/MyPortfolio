@@ -1,10 +1,11 @@
-import './index.css'
+// src/App.jsx
+import './index.css';
 import Navigation from './components/Navigation/Navigation';
-import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom'; // Importa Navigate aquí
-import { About } from './components/About/About';
-import { Portfolio } from './components/Portfolio/Portfolio';
-import { Contact } from './components/Contact/Contact';
-import { Home } from './components/Home/Home';
+import { Routes, Route, Navigate } from 'react-router-dom'; // No es necesario BrowserRouter aquí
+import { About } from './pages/About/About';
+import { Portfolio } from './pages/Portfolio/Portfolio';
+import { Contact } from './pages/Contact/Contact';
+import { Home } from './pages/Home/Home';
 
 function App() {
   return (
